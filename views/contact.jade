@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    div.content
+        div.top-page-contact.main-color
+        div.name.main-color 
+            div.my-name: a(href="/") Matthew Rich
+        div.underline
+        div.main-image.contact-image
+            div.contact-me 
+                form(action="/contactSubmit", method="POST")
+                    div.first-line 
+                        | Hello Matt,  <br>
+                        | My name is 
+                        input.form-entry.form-entry-name#name(type="text", name="name", required)
+                        | , and I would love to speak to you about 
+                        input.form-entry#topic(type="text", name="topic", required)
+                        | .<br>You can reach me at 
+                        input.form-entry#contact(type="text", name="contact", required)
+                        | . <br><br>
+                        input.contact-submit(type="submit", value="Thank You!")
+        div.bottom-page.main-color

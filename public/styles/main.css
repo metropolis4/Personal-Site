@@ -4,6 +4,8 @@ body {
 a {
     text-decoration: none;
     color: #fff;
+}
+a.nav-links {
     margin: 0 4%;
 }
 .main-color {
@@ -83,4 +85,50 @@ a {
 .bottom-page {
     height: 50%;
     width: 100%;
+}
+.contact-image {
+    height: 640px;
+    width: 100%;
+    overflow: hidden;
+    background: rgba(0,0,0,1);
+    background-image: url("//farm4.staticflickr.com/3420/3833948350_c9ed55d4eb_z.jpg");
+    background-repeat: no-repeat;
+}
+.top-page-contact {
+    width: 100%;
+    height: 8%;
+}
+.contact-me {
+    background: none;
+    color: #ddd;
+    width: 50%;
+    font-size: 2em;
+    position: relative;
+    top: 20%;
+    left: 40%;
+}
+.form-entry {
+    background: none;
+    border: none;
+    border-bottom: 2px solid #ddd;
+    color: #ddd;
+    font-size: 1.6REM;
+    width: 280px;
+}
+.form-entry-name {
+    width: 200px;
+}
+.form-entry:focus {
+    outline: none;
+    background: rgba(250, 250, 250, 0.3);
+}
+.contact-submit {
+    color: #333;
+    background: #ddd;
+    border: none;
+    font-size: 2REM;
+    margin-top: 20px;
+}
+.contact-submit:hover {
+    cursor: pointer;
 }

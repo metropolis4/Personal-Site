@@ -1,0 +1,85 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 warn package.json @ No description
+5 warn package.json @ No repository field.
+6 warn package.json @ No README data
+7 verbose readDependencies using package.json deps
+8 verbose install where, deps [ '/Users/machd/Dev/projects/personalPage',
+8 verbose install   [ 'express', 'jade', 'body-parser', 'mailgun-js' ] ]
+9 info preinstall @
+10 verbose readDependencies using package.json deps
+11 verbose already installed skipping express@^4 /Users/machd/Dev/projects/personalPage
+12 verbose already installed skipping jade@^1 /Users/machd/Dev/projects/personalPage
+13 verbose already installed skipping body-parser@^1 /Users/machd/Dev/projects/personalPage
+14 verbose cache add [ 'mailgun-js@latest', null ]
+15 verbose cache add name=undefined spec="mailgun-js@latest" args=["mailgun-js@latest",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'mailgun-js@latest',
+16 verbose parsed url   path: 'mailgun-js@latest',
+16 verbose parsed url   href: 'mailgun-js@latest' }
+17 verbose cache add name="mailgun-js" spec="latest" args=["mailgun-js","latest"]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'latest',
+18 verbose parsed url   path: 'latest',
+18 verbose parsed url   href: 'latest' }
+19 verbose addNamed [ 'mailgun-js', 'latest' ]
+20 verbose addNamed [ null, null ]
+21 silly lockFile 24bfa7f9-mailgun-js-latest mailgun-js@latest
+22 verbose lock mailgun-js@latest /Users/machd/.npm/24bfa7f9-mailgun-js-latest.lock
+23 info addNameTag [ 'mailgun-js', 'latest' ]
+24 verbose request where is /mailgun-js
+25 verbose request registry https://registry.npmjs.org/
+26 verbose request id 6c5b4115a8552ffa
+27 verbose url raw /mailgun-js
+28 verbose url resolving [ 'https://registry.npmjs.org/', './mailgun-js' ]
+29 verbose url resolved https://registry.npmjs.org/mailgun-js
+30 verbose request where is https://registry.npmjs.org/mailgun-js
+31 info trying registry request attempt 1 at 10:49:29
+32 http GET https://registry.npmjs.org/mailgun-js
+33 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+34 info trying registry request attempt 2 at 10:49:40
+35 http GET https://registry.npmjs.org/mailgun-js
+36 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+37 info trying registry request attempt 3 at 10:50:41
+38 http GET https://registry.npmjs.org/mailgun-js
+39 silly lockFile 24bfa7f9-mailgun-js-latest mailgun-js@latest
+40 silly lockFile 24bfa7f9-mailgun-js-latest mailgun-js@latest
+41 error Error: connect ECONNREFUSED
+41 error     at errnoException (net.js:905:11)
+41 error     at Object.afterConnect [as oncomplete] (net.js:896:19)
+41 error  { [Error: connect ECONNREFUSED]
+41 error   code: 'ECONNREFUSED',
+41 error   errno: 'ECONNREFUSED',
+41 error   syscall: 'connect' }
+42 error If you are behind a proxy, please make sure that the
+42 error 'proxy' config is set properly.  See: 'npm help config'
+43 error System Darwin 14.1.0
+44 error command "node" "/usr/local/bin/npm" "install"
+45 error cwd /Users/machd/Dev/projects/personalPage
+46 error node -v v0.10.35
+47 error npm -v 1.4.28
+48 error syscall connect
+49 error code ECONNREFUSED
+50 error errno ECONNREFUSED
+51 error stack Error: connect ECONNREFUSED
+51 error stack     at errnoException (net.js:905:11)
+51 error stack     at Object.afterConnect [as oncomplete] (net.js:896:19)
+52 verbose exit [ 1, true ]
