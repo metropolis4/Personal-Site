@@ -21,6 +21,18 @@ var indexController = {
             console.log('email body: ', body);
         });
         res.redirect('contact');
+    },
+    dev: function(req, res){
+        res.render('dev');
+    },
+    about: function(req, res){
+        res.render('about');
+    },
+    music: function(req, res){
+        res.render('music');
+    },
+    photo: function(req, res){
+        res.render('photo')
     }
 };
 

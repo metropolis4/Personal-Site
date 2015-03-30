@@ -132,3 +132,12 @@ a.nav-links {
 .contact-submit:hover {
     cursor: pointer;
 }
+.main-content-dev {
+    width: 100%;
+}
+.inner-content {
+    margin: 2% 15%;
+}
+a.portfolio-links {
+    color: blue;
+}
