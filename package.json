@@ -1,5 +1,5 @@
 {
-  "name": "personal page",
+  "name": "personal-page",
   "scripts": {
     "start": "node app.js"
   },
@@ -14,4 +14,4 @@
     "url": "https://github.com/metropolis4/Personal-Site"
   },
   "author": "Matt Rich"
-}
+}-
