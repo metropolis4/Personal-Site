@@ -1,8 +1,17 @@
 {
+  "name": "personal page",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "body-parser": "^1",
     "express": "^4",
     "jade": "^1",
     "mailgun-js": "^0.6.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/metropolis4/Personal-Site"
+  },
+  "author": "Matt Rich"
 }
