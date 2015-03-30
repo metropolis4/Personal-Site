@@ -1,5 +1,4 @@
-var mailgunInfo = require('../mailgun/mailgun.js');
-var mailgun = require('mailgun-js')({apiKey: mailgunInfo.key, domain: mailgunInfo.domain});
+var mailgun = require('mailgun-js')({apiKey: process.env.mailgunKey, domain: process.env.mailgunDomain});
 
 var indexController = {
 	index: function(req, res) {
