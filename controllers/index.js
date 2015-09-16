@@ -8,7 +8,6 @@ var indexController = {
         res.render('contact');
     },
     contactSubmit: function(req, res){
-        console.log("FROM SERVER:: ", req.body);
         var data = {
             from: 'New Contact <metropolis_4@hotmail.com>',
             to: 'mattgbrich@gmail.com',
@@ -17,7 +16,6 @@ var indexController = {
         };
         mailgun.messages().send(data, function(err, body){
             if(err) throw err;
-            console.log('email body: ', body);
         });
         res.redirect('contact');
     },
